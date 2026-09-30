@@ -4,6 +4,14 @@
 
 ![](/project.png)
 
+## Inputs
+
+- **Length** (number)
+- **Width** (number)
+- **Thickness** (number)
+- **HoleDiameter** (number)
+
+
 
 
  
