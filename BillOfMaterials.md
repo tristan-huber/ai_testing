@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|#8 x 3/4 in wood screw, pan head|1|$0.00||
+|Total: |1|$0.00| |
