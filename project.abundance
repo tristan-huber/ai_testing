@@ -637,184 +637,14 @@
         {
           "atomType": "Molecule",
           "x": 0.7,
-          "y": 0.3,
-          "uniqueID": "id-197780",
-          "name": "Counterbore",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Length",
-              "ioValue": 30
-            },
-            {
-              "name": "Width",
-              "ioValue": 15
-            },
-            {
-              "name": "Thickness",
-              "ioValue": 8
-            }
-          ],
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 1,
-              "y": 0.5,
-              "uniqueID": "id-197782",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Input",
-              "x": 0,
-              "y": 0.1,
-              "uniqueID": "id-197895",
-              "name": "geometry",
-              "type": "geometry",
-              "options": []
-            },
-            {
-              "atomType": "Input",
-              "x": 0,
-              "y": 0.2,
-              "uniqueID": "id-197898",
-              "name": "Length",
-              "type": "number",
-              "options": []
-            },
-            {
-              "atomType": "Input",
-              "x": 0,
-              "y": 0.3,
-              "uniqueID": "id-197901",
-              "name": "Width",
-              "type": "number",
-              "options": []
-            },
-            {
-              "atomType": "Input",
-              "x": 0,
-              "y": 0.4,
-              "uniqueID": "id-197904",
-              "name": "Thickness",
-              "type": "number",
-              "options": []
-            },
-            {
-              "atomType": "Circle",
-              "x": 0.3,
-              "y": 0.6,
-              "uniqueID": "id-197907",
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 8
-                }
-              ]
-            },
-            {
-              "atomType": "Extrude",
-              "x": 0.5,
-              "y": 0.6,
-              "uniqueID": "id-197910",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 2.5
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.6,
-              "y": 0.6,
-              "uniqueID": "id-197914",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": -7.5,
-                  "currentEquation": "-(Length/2 - Width/2)"
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 5.5,
-                  "currentEquation": "Thickness-2.5"
-                }
-              ]
-            },
-            {
-              "atomType": "Difference",
-              "x": 0.8,
-              "y": 0.4,
-              "uniqueID": "id-197920",
-              "ioValues": [
-                {
-                  "name": "retain",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "remove",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "retain",
-              "ap1ID": "id-197895",
-              "ap2ID": "id-197920"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-197907",
-              "ap2ID": "id-197910"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-197910",
-              "ap2ID": "id-197914"
-            },
-            {
-              "ap2Name": "remove",
-              "ap1ID": "id-197914",
-              "ap2ID": "id-197920"
-            },
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-197920",
-              "ap2ID": "id-197782"
-            }
-          ],
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Molecule",
-          "x": 0.7,
           "y": 0.6,
           "uniqueID": "id-197962",
           "name": "scallops",
           "ioValues": [
+            {
+              "name": "body",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "Thickness",
               "ioValue": 8
@@ -844,6 +674,7 @@
               "y": 0.5,
               "uniqueID": "id-197966",
               "name": "body",
+              "type": "geometry",
               "options": []
             },
             {
@@ -1566,9 +1397,7 @@
                   37,
                   5,
                   9,
-                  38,
-                  39,
-                  41
+                  38
                 ]
               }
             },
@@ -1616,19 +1445,9 @@
           "ap2ID": "id-197772"
         },
         {
-          "ap2Name": "Length",
-          "ap1ID": "id-197760",
-          "ap2ID": "id-197780"
-        },
-        {
           "ap2Name": "Width",
           "ap1ID": "id-197763",
           "ap2ID": "id-197772"
-        },
-        {
-          "ap2Name": "Width",
-          "ap1ID": "id-197763",
-          "ap2ID": "id-197780"
         },
         {
           "ap2Name": "Width",
@@ -1639,11 +1458,6 @@
           "ap2Name": "height",
           "ap1ID": "id-197766",
           "ap2ID": "id-197776"
-        },
-        {
-          "ap2Name": "Thickness",
-          "ap1ID": "id-197766",
-          "ap2ID": "id-197780"
         },
         {
           "ap2Name": "Thickness",
@@ -1661,13 +1475,8 @@
           "ap2ID": "id-197776"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-197776",
-          "ap2ID": "id-197780"
-        },
-        {
           "ap2Name": "body",
-          "ap1ID": "id-197780",
+          "ap1ID": "id-197776",
           "ap2ID": "id-197962"
         },
         {
@@ -1727,7 +1536,7 @@
       "ioValues": [
         {
           "name": "makeDisjoint",
-          "ioValue": false
+          "ioValue": true
         },
         {
           "name": "Shape 1",
@@ -2340,12 +2149,12 @@
       "ap2ID": "id-197704"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "Shape2",
       "ap1ID": "id-197704",
       "ap2ID": "id-197956"
     },
     {
-      "ap2Name": "Shape2",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-197950",
       "ap2ID": "id-197956"
     },
