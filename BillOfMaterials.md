@@ -2,6 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|#6 Screw|2|$0.00||
-|#6 x 3/4 in wood screw|1|$0.00||
-|Total: |3|$0.00| |
+|Total: |0|$0.00| |
