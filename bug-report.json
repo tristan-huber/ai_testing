@@ -1,0 +1,215 @@
+{
+  "reason": "user",
+  "appVersion": "0.14.6",
+  "url": "http://localhost:4444/tristan-huber/ai_testing",
+  "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:157.0) Gecko/20100101 Firefox/157.0",
+  "reporter": "tristan-huber",
+  "stateReport": {
+    "generatedAt": "2026-10-02T18:36:46.301Z",
+    "project": {
+      "name": "ai_testing",
+      "owner": "tristan-huber",
+      "repoUrl": "https://github.com/tristan-huber/ai_testing",
+      "isLoading": false,
+      "totalAtomCount": 111,
+      "pendingAtomCount": 111,
+      "loadElapsedMs": 36625,
+      "topLevelMoleculeStatus": "ready",
+      "completion": {
+        "ready": 86,
+        "total": 86,
+        "remaining": 0
+      }
+    },
+    "currentMolecule": {
+      "name": "ai_testing",
+      "atomType": "Molecule",
+      "uniqueID": "id-197593",
+      "isTopLevel": true,
+      "atomCount": 11,
+      "atoms": [
+        {
+          "name": "Output",
+          "atomType": "Output",
+          "uniqueID": "id-197594",
+          "status": "ready"
+        },
+        {
+          "name": "Length",
+          "atomType": "Input",
+          "uniqueID": "id-197692",
+          "status": "ready"
+        },
+        {
+          "name": "Width",
+          "atomType": "Input",
+          "uniqueID": "id-197695",
+          "status": "ready"
+        },
+        {
+          "name": "Thickness",
+          "atomType": "Input",
+          "uniqueID": "id-197698",
+          "status": "ready"
+        },
+        {
+          "name": "HoleDiameter",
+          "atomType": "Input",
+          "uniqueID": "id-197701",
+          "status": "ready"
+        },
+        {
+          "name": "Move",
+          "atomType": "Move",
+          "uniqueID": "id-197950",
+          "status": "ready"
+        },
+        {
+          "name": "Assembly",
+          "atomType": "Assembly",
+          "uniqueID": "id-197956",
+          "status": "ready"
+        },
+        {
+          "name": "Add BOM Tag",
+          "atomType": "Add-BOM-Tag",
+          "uniqueID": "id-198182",
+          "status": "ready"
+        },
+        {
+          "name": "-6-Wood-Screw-inches",
+          "atomType": "GitHubMolecule",
+          "uniqueID": "id-198104",
+          "status": "ready"
+        },
+        {
+          "name": "Scale",
+          "atomType": "GitHubMolecule",
+          "uniqueID": "id-198151",
+          "status": "ready"
+        },
+        {
+          "name": "Toggle Body",
+          "atomType": "Molecule",
+          "uniqueID": "id-197704",
+          "status": "ready"
+        }
+      ]
+    },
+    "topLevelMolecule": null,
+    "cadWorker": {
+      "timeoutMs": 90000,
+      "workerEpoch": 1,
+      "pendingCount": 0,
+      "lastWorkerActivity": {
+        "message": "[op] scale-code-transient-0-__GEOMETRY_INPUT__ starting",
+        "timestamp": "2026-10-02T18:36:10.452Z"
+      },
+      "activeTask": null,
+      "queue": []
+    },
+    "stuckAtoms": [],
+    "stallDiagnosis": {
+      "stuckCount": 0,
+      "processingCount": 0,
+      "waitingCount": 0,
+      "droppedOutputToMoleculeEdges": [],
+      "atomsWithLostInputEdges": [],
+      "droppedEdgesIntoOutput": []
+    },
+    "erroredAtoms": [
+      {
+        "path": "ai_testing / Scale / Code",
+        "atomType": "Code",
+        "message": "[ai_testing/Scale/Code] Error: Code execution failed: Function 'gp_Trsf.SetScale' called with an invalid signature (gp_Pnt,string) - expects one of ((gp_Pnt,number))!"
+      }
+    ],
+    "workerLogs": [
+      {
+        "level": "warn",
+        "message": "[op] code-transient-0 starting",
+        "timestamp": "2026-10-02T18:36:10.450Z"
+      },
+      {
+        "level": "warn",
+        "message": "[op] scale-code-transient-0-__GEOMETRY_INPUT__ starting",
+        "timestamp": "2026-10-02T18:36:10.452Z"
+      },
+      {
+        "level": "warn",
+        "message": "[op] scale-code-transient-0-__GEOMETRY_INPUT__ threw: BindingError: Function 'gp_Trsf.SetScale' called with an invalid signature (gp_Pnt,string) - expects one of ((gp_Pnt,number))!",
+        "timestamp": "2026-10-02T18:36:10.452Z"
+      },
+      {
+        "level": "error",
+        "message": "Code execution error: V@http://localhost:4444/node_modules/.vite/deps/replicad-opencascadejs.js?v=51acc8e9:1296:7\nh@http://localhost:4444/node_modules/.vite/deps/replicad-opencascadejs.js?v=51acc8e9:1384:276\nModule/$b/a[b]@http://localhost:4444/node_modules/.vite/deps/replicad-opencascadejs.js?v=51acc8e9:1364:34\nscale@http://localhost:4444/node_modules/.vite/deps/chunk-64M4EIK2.js?v=51acc8e9:370:18\nscale@http://localhost:4444/node_modules/.vite/deps/chunk-64M4EIK2.js?v=51acc8e9:794:18\nscale@http://localhost:4444/node_modules/.vite/deps/chunk-64M4EIK2.js?v=51acc8e9:3663:27\nscale/<@http://localhost:4444/src/worker/geometryProvider.ts:541:23\n",
+        "timestamp": "2026-10-02T18:36:10.453Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] cache metrics: {\"circle\":[6,0,0],\"move\":[8,0,0],\"extrude\":[4,0,0],\"rotate\":[1,0,0],\"loft\":[1,0,0],\"deserialize\":[1,10,0],\"cut\":[5,0,0],\"code\":[0,1,0]}",
+        "timestamp": "2026-10-02T18:36:16.108Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] replicad live shapes: {\"registered\":476,\"unregistered\":217,\"finalized\":253,\"live\":6}",
+        "timestamp": "2026-10-02T18:36:16.109Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] cache metrics: {\"circle\":[6,0,0],\"move\":[8,0,0],\"extrude\":[4,0,0],\"rotate\":[1,0,0],\"loft\":[1,0,0],\"deserialize\":[1,10,0],\"cut\":[5,0,0],\"code\":[0,1,0]}",
+        "timestamp": "2026-10-02T18:36:26.112Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] replicad live shapes: {\"registered\":476,\"unregistered\":217,\"finalized\":253,\"live\":6}",
+        "timestamp": "2026-10-02T18:36:26.112Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] cache metrics: {\"circle\":[6,0,0],\"move\":[8,0,0],\"extrude\":[4,0,0],\"rotate\":[1,0,0],\"loft\":[1,0,0],\"deserialize\":[1,10,0],\"cut\":[5,0,0],\"code\":[0,1,0]}",
+        "timestamp": "2026-10-02T18:36:36.112Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] replicad live shapes: {\"registered\":476,\"unregistered\":217,\"finalized\":253,\"live\":6}",
+        "timestamp": "2026-10-02T18:36:36.112Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] cache metrics: {\"circle\":[6,0,0],\"move\":[8,0,0],\"extrude\":[4,0,0],\"rotate\":[1,0,0],\"loft\":[1,0,0],\"deserialize\":[1,10,0],\"cut\":[5,0,0],\"code\":[0,1,0]}",
+        "timestamp": "2026-10-02T18:36:46.129Z"
+      },
+      {
+        "level": "warn",
+        "message": "[GeometryProvider] replicad live shapes: {\"registered\":476,\"unregistered\":217,\"finalized\":253,\"live\":6}",
+        "timestamp": "2026-10-02T18:36:46.130Z"
+      }
+    ],
+    "recentErrors": [
+      {
+        "timestamp": "2026-10-02T18:36:10.543Z",
+        "message": "Error in atom: ai_testing/Scale/Code"
+      },
+      {
+        "timestamp": "2026-10-02T18:36:10.543Z",
+        "message": "{\"name\":\"Error\",\"stack\":\"executeCode@http://localhost:4444/src/worker/code-legacy.ts:304:11\\n\"}"
+      }
+    ],
+    "browser": {
+      "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:157.0) Gecko/20100101 Firefox/157.0"
+    }
+  },
+  "console": [
+    "2026-10-02T18:36:05.462Z [warn] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+    "2026-10-02T18:36:05.462Z [warn] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+    "2026-10-02T18:36:05.529Z [warn] THREE.WARNING: Multiple instances of Three.js being imported.",
+    "2026-10-02T18:36:09.170Z [log] Attempting to load project: tristan-huber ai_testing",
+    "2026-10-02T18:36:09.677Z [log] Loading project: {\"contentURL\":\"https://raw.githubusercontent.com/tristan-huber/ai_testing/master/project.abundance?sanitize=true\",\"dateCreated\":\"2026-09-30T15:57:19Z\",\"dateModified\":\"739891\",\"description\":\"testing out some new ai integrations\",\"forks\":0,\"githubMoleculesUsed\":[{\"owner\":\"alzatin\",\"repoName\":\"-6-Wood-Screw-inches\"},{\"owner\":\"BarbourSmith\",\"repoName\":\"Scale\"},{\"owner\":\"tristan-huber\",\"repoName\":\"select.FacesByNormal\"},{\"owner\":\"tristan-huber\",\"repoName\":\"select.EdgesOnFace\"},{\"owner\":\"tristan-huber\",\"repoName\":\"selected.Fillet\"},{\"repoName\":\"Rounded_Rectangle\",\"owner\":\"BarbourSmith\"},{\"owner\":\"tristan-huber\",\"repoName\":\"selected.Fillet\"},{\"owner\":\"tristan-huber\",\"repoName\":\"util.Mirror\"}],\"html_url\":\"https://github.com/tristan-huber/ai_testing\",\"owner\":\"tristan-huber\",\"parentRepo\":null,\"pngURL\":\"https://raw.githubusercontent.com/tristan-huber/ai_testing/main/project.png\",\"privateRepo\":false,\"projectInputs\":[{\"name\":\"Length\",\"type\":\"number\"},{\"name\":\"Width\",\"type\":\"number\"},{\"name\":\"Thickness\",\"type\":\"number\"},{\"name\":\"HoleDiameter\",\"type\":\"number\"}],\"ranking\":0,\"readMe\":\"https://raw.githubusercontent.com/tristan-huber/ai_testing/master/README.md?sanitize=true\",\"searchField\":\"ai_testing tristan-huber testing out some new ai integrations examples\",\"svgURL\":\"https://raw.githubusercontent.com/tristan-huber/ai_testing/master/project.svg?sanitize=true\",\"topMoleculeID\":\"id-197593\",\"topics\":[\"examples\"],\"userSetAsThumbnail\":false,\"yyyy\":2026,\"repoName\":\"ai_testing\"}",
+    "2026-10-02T18:36:09.677Z [log] Cleared old unsaved projects from localStorage after load",
+    "2026-10-02T18:36:09.677Z [log] Project loaded successfully: tristan-huber/ai_testing",
+    "2026-10-02T18:36:10.543Z [error] Error in atom: ai_testing/Scale/Code",
+    "2026-10-02T18:36:10.543Z [error] executeCode@http://localhost:4444/src/worker/code-legacy.ts:304:11\n",
+    "2026-10-02T18:36:10.896Z [log] updating edge selection with data:  {\"0\":[12,15,17,33,31,30,24,28,34,35,36,37,5,9,38]}"
+  ]
+}
