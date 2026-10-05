@@ -2200,7 +2200,7 @@
         },
         {
           "atomType": "CutOrient",
-          "x": 0.8,
+          "x": 0.7,
           "y": 0.7,
           "uniqueID": "id-198473",
           "name": "Cut Orient",
@@ -2272,6 +2272,79 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.8,
+          "y": 0.4,
+          "uniqueID": "id-199786",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 200
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 100
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 3
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 90,
+                "translate": {
+                  "x": 10.630000114440918,
+                  "y": 1.75
+                }
+              },
+              {
+                "id": 1,
+                "rotate": 270,
+                "translate": {
+                  "x": 1.7000000476837158,
+                  "y": 33.310001373291016
+                }
+              },
+              {
+                "id": 2,
+                "rotate": 180,
+                "translate": {
+                  "x": 32.36000061035156,
+                  "y": 45.97999954223633
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.7,
+          "y": 0.3,
+          "uniqueID": "id-199793",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2302,6 +2375,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-198473",
+          "ap2ID": "id-199786"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-198761",
           "ap2ID": "id-198764"
         },
@@ -2314,6 +2392,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-198770",
           "ap2ID": "id-198455"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-199786",
+          "ap2ID": "id-199793"
         }
       ],
       "fileTypeVersion": 1
