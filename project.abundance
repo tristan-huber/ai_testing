@@ -3275,8 +3275,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.5,
-          "y": 0.5,
+          "x": 0.4,
+          "y": 0.4,
           "uniqueID": "id-199863",
           "name": "RotatePattern",
           "ioValues": [
@@ -3803,7 +3803,8 @@
             },
             {
               "name": "Part Padding",
-              "ioValue": 2
+              "ioValue": 2,
+              "currentEquation": "2"
             },
             {
               "name": "Orientations",
