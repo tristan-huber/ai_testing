@@ -58,8 +58,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.1,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-200840",
           "name": "BottomDiameter",
           "type": "number",
@@ -67,8 +67,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.2,
+          "x": 0.0254,
+          "y": 0.2462,
           "uniqueID": "id-200843",
           "name": "TopDiameter",
           "type": "number",
@@ -76,8 +76,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.3,
+          "x": 0.0254,
+          "y": 0.3385,
           "uniqueID": "id-200846",
           "name": "FrontDiameter",
           "type": "number",
@@ -85,8 +85,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.4,
+          "x": 0.0254,
+          "y": 0.4308,
           "uniqueID": "id-200849",
           "name": "FrameWidth",
           "type": "number",
@@ -154,8 +154,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0,
-                  "y": 0.1,
+                  "x": 0.0254,
+                  "y": 0.1538,
                   "uniqueID": "id-200860",
                   "name": "Diameter",
                   "type": "number",
@@ -247,8 +247,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0,
-                  "y": 0.1,
+                  "x": 0.0254,
+                  "y": 0.1538,
                   "uniqueID": "id-200876",
                   "name": "Diameter",
                   "type": "number",
@@ -340,8 +340,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0,
-                  "y": 0.1,
+                  "x": 0.0254,
+                  "y": 0.1538,
                   "uniqueID": "id-200892",
                   "name": "Diameter",
                   "type": "number",
@@ -406,8 +406,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0,
-              "y": 0.1,
+              "x": 0.0254,
+              "y": 0.1538,
               "uniqueID": "id-200904",
               "name": "BottomDiameter",
               "type": "number",
@@ -415,8 +415,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0,
-              "y": 0.2,
+              "x": 0.0254,
+              "y": 0.2462,
               "uniqueID": "id-200907",
               "name": "TopDiameter",
               "type": "number",
@@ -424,8 +424,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0,
-              "y": 0.3,
+              "x": 0.0254,
+              "y": 0.3385,
               "uniqueID": "id-200910",
               "name": "FrontDiameter",
               "type": "number",
@@ -556,8 +556,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0,
-              "y": 0.1,
+              "x": 0.0254,
+              "y": 0.1538,
               "uniqueID": "id-200929",
               "name": "Profile",
               "type": "geometry",
@@ -565,8 +565,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0,
-              "y": 0.2,
+              "x": 0.0254,
+              "y": 0.2462,
               "uniqueID": "id-200932",
               "name": "FrameWidth",
               "type": "number",
@@ -664,8 +664,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0,
-                  "y": 0.1,
+                  "x": 0.0254,
+                  "y": 0.1538,
                   "uniqueID": "id-200948",
                   "name": "Shape",
                   "type": "geometry",
@@ -673,8 +673,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0,
-                  "y": 0.2,
+                  "x": 0.0254,
+                  "y": 0.2462,
                   "uniqueID": "id-200949",
                   "name": "Offset",
                   "options": []
@@ -847,8 +847,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.1,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-201076",
           "name": "Panel",
           "type": "geometry",
@@ -1377,8 +1377,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.1,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-201175",
           "name": "Envelope",
           "type": "geometry",
@@ -1564,8 +1564,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.1,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-201209",
           "name": "Envelope",
           "type": "geometry",
@@ -1751,8 +1751,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0,
-          "y": 0.1,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-201243",
           "name": "Envelope",
           "type": "geometry",
@@ -1949,7 +1949,7 @@
           "downwardFaceIndex": 1,
           "faceCount": 18,
           "faceNormal": [
-            0.8660254037844386,
+            0.8660254037844393,
             0,
             -0.5000000000000001
           ]
@@ -1964,30 +1964,30 @@
           ]
         },
         {
-          "downwardFaceIndex": 4,
-          "faceCount": 12,
+          "downwardFaceIndex": 3,
+          "faceCount": 14,
           "faceNormal": [
-            0.08788596811975274,
-            0.9961305419510306,
-            -1.1102230246251565e-16
+            0.08788596811975281,
+            0.996130541951031,
+            -6.098314084251378e-19
           ]
         },
         {
-          "downwardFaceIndex": 2,
-          "faceCount": 12,
+          "downwardFaceIndex": 4,
+          "faceCount": 14,
           "faceNormal": [
-            0.08788596811975274,
-            -0.9961305419510306,
-            1.1102230246251565e-16
+            0.08788596811975281,
+            -0.996130541951031,
+            6.098314084251378e-19
           ]
         },
         {
           "downwardFaceIndex": 1,
           "faceCount": 6,
           "faceNormal": [
-            -0.12186934340514749,
+            -0.121869343405147,
             0,
-            -0.9925461516413221
+            -0.992546151641322
           ]
         }
       ],
@@ -2006,13 +2006,11 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48,
-          "currentEquation": "48"
+          "ioValue": 48
         },
         {
           "name": "Part Padding",
@@ -2021,51 +2019,131 @@
         {
           "name": "Orientations",
           "ioValue": 12
+        },
+        {
+          "name": "Search Time (minutes)",
+          "ioValue": 2
         }
       ],
-      "placements": [
-        [
-          {
-            "id": 3,
-            "rotate": 0,
-            "translate": {
-              "x": -50.849998474121094,
-              "y": 0.3400000035762787
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 90,
-            "translate": {
-              "x": 37.779998779296875,
-              "y": -3.200000762939453
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 180,
-            "translate": {
-              "x": 50.19000244140625,
-              "y": 21.270000457763672
-            }
-          },
-          {
-            "id": 4,
-            "rotate": 90,
-            "translate": {
-              "x": 52.98999786376953,
-              "y": -77.25999450683594
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 180,
-            "translate": {
-              "x": 58,
-              "y": 46.84000015258789
-            }
-          }
-        ]
+      "placements": [],
+      "placementsVersion": 2
+    },
+    {
+      "atomType": "Import",
+      "x": 0.0586,
+      "y": 0.5429,
+      "uniqueID": "id-201564",
+      "fileName": "ExampleToSlice_copy1.stl",
+      "name": "Import",
+      "type": "STL",
+      "repoOwner": "tristan-huber",
+      "repoName": "ai_testing",
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.2865,
+      "y": 0.7829,
+      "uniqueID": "id-201566",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.0957,
+      "y": 0.7629,
+      "uniqueID": "id-201570",
+      "fileName": "emberbat.png",
+      "name": "Import",
+      "type": "PNG",
+      "repoOwner": "tristan-huber",
+      "repoName": "ai_testing",
+      "SVGwidth": 10,
+      "referenceWidth": 20
+    },
+    {
+      "atomType": "Code",
+      "x": 0.1986,
+      "y": 0.8257,
+      "uniqueID": "id-201572",
+      "ioValues": [
+        {
+          "name": "png",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "interpreterVersion": 1,
+      "code": "function run(png: Assembly) {\n  console.log(png)\n  return png\n}",
+      "compiledCode": "\"use strict\";\nfunction run(png) {\n    console.log(png);\n    return png;\n}\n"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.1087,
+      "y": 0.3057,
+      "uniqueID": "id-201582",
+      "fileName": "AbundanceScan-2026-11-02_085407_copy1.glb",
+      "name": "Import",
+      "type": "GLB",
+      "repoOwner": "tristan-huber",
+      "repoName": "ai_testing",
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4115,
+      "y": 0.5,
+      "uniqueID": "id-201584",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5671,
+      "y": 0.2571,
+      "uniqueID": "id-201590",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
       ]
     }
   ],
@@ -2074,6 +2152,11 @@
       "ap2Name": "Panel",
       "ap1ID": "id-200836",
       "ap2ID": "id-201072"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-200836",
+      "ap2ID": "id-201566"
     },
     {
       "ap2Name": "Shape4",
@@ -2129,6 +2212,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-201278",
       "ap2ID": "id-201281"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-201564",
+      "ap2ID": "id-201566"
+    },
+    {
+      "ap2Name": "png",
+      "ap1ID": "id-201570",
+      "ap2ID": "id-201572"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-201582",
+      "ap2ID": "id-201584"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-201584",
+      "ap2ID": "id-201590"
     }
   ],
   "unitsKey": "Inches",
