@@ -2081,8 +2081,8 @@
         }
       ],
       "interpreterVersion": 1,
-      "code": "function run(png: Assembly) {\n  console.log(png)\n  return png\n}",
-      "compiledCode": "\"use strict\";\nfunction run(png) {\n    console.log(png);\n    return png;\n}\n"
+      "code": "async function run(png: Assembly) {\n  const pix = await png.pixels();\n  console.log(JSON.stringify(pix).length)\n  return png\n}",
+      "compiledCode": "\"use strict\";\nasync function run(png) {\n    const pix = await png.pixels();\n    console.log(JSON.stringify(pix).length);\n    return png;\n}\n"
     },
     {
       "atomType": "Import",
@@ -2108,8 +2108,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "yDist",
@@ -2137,8 +2136,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         },
         {
           "name": "z-axis degrees",
@@ -2215,7 +2213,7 @@
     },
     {
       "ap2Name": "retain",
-      "ap1ID": "id-201564",
+      "ap1ID": "id-201570",
       "ap2ID": "id-201566"
     },
     {
